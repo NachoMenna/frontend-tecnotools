@@ -1,0 +1,9 @@
+.contenedor-formulas {
+    margin-top: 180px;
+}
+
+.input-pantalla {    
+    font-size: 42px;    
+    display: flex;
+    justify-content: center;
+}

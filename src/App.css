@@ -1,0 +1,251 @@
+/* body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+} */
+#icono-whatsapp {
+  color: white;
+}
+
+.whatsapp {
+  font-weight: bold;
+  height: 58px;
+  font-size: 34px;
+  display: flex;
+  color: white;
+  justify-content: flex-start;
+  padding-left: 10px;
+  width: 50px;
+  background-color: #25D366;
+  -webkit-transition: width 1s, background 1s;
+  -moz-transition: width 0.5s, background 0.5s;
+  -o-transition: width 0.5s, background 0, 5s;
+  transition: width 0.5s, background 0.5s;
+}
+
+.whatsapp:hover {
+  height: 58px;
+  font-size: 34px;
+  width: 200px;
+  background-color: #25D366;
+}
+
+.whatsapp:hover::after {
+  content: "Contactanos vía Whatsapp";
+  height: 52px;
+  box-sizing: border-box;
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  top: 3px;
+  animation: 2s fadeIn;
+}
+
+#icono-instagram {
+  color: white;
+}
+
+.instagram {
+  font-weight: bold;
+  height: 58px;
+  font-size: 34px;
+  display: flex;
+  color: white;
+  justify-content: flex-start;
+  padding-left: 10px;
+  width: 50px;
+  background-color: #3f729b;
+  -webkit-transition: width 1s, background 1s;
+  -moz-transition: width 0.5s, background 0.5s;
+  -o-transition: width 0.5s, background 0, 5s;
+  transition: width 0.5s, background 0.5s;
+}
+
+.instagram:hover {
+  height: 58px;
+  font-size: 34px;
+  width: 200px;
+  background-color: #3f729b;
+}
+
+.instagram:hover::after {
+  height: 52px;
+  box-sizing: border-box;
+  content: "Ingresá a nuestro instagram";
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  top: 3px;
+  animation: 2s fadeIn;
+}
+
+#icono-facebook {
+  color: white;
+}
+
+.facebook {
+  font-weight: bold;
+  height: 58px;
+  font-size: 34px;
+  display: flex;
+  color: white;
+  justify-content: flex-start;
+  padding-left: 10px;
+  width: 50px;
+  background-color: #3b5998;
+  -webkit-transition: width 1s, background 1s;
+  -moz-transition: width 0.5s, background 0.5s;
+  -o-transition: width 0.5s, background 0, 5s;
+  transition: width 0.5s, background 0.5s;
+}
+
+.facebook:hover {
+  height: 58px;
+  font-size: 34px;
+  width: 200px;
+  background-color: #3b5998;
+}
+
+.facebook:hover::after {
+  height: 52px;
+  box-sizing: border-box;
+  content: "Ingresá a nuestro facebook";
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  top: 4px;
+  animation: 2s fadeIn;
+}
+
+#icono-ubicacion {
+  color: rgb(219, 68, 55);
+}
+
+.ubicacion {
+  font-weight: bold;
+  height: 58px;
+  font-size: 34px;
+  display: flex;
+  color: white;
+  justify-content: flex-start;
+  padding-left: 12px;
+  width: 50px;
+  background-color: whitesmoke;
+  -webkit-transition: width 1s, background 1s;
+  -moz-transition: width 0.5s, background 0.5s;
+  -o-transition: width 0.5s, background 0, 5s;
+  transition: width 0.5s, background 0.5s;
+}
+
+.ubicacion:hover {
+  height: 58px;
+  width: 200px;
+  background-color: whitesmoke;
+  color: black;
+}
+
+.ubicacion:hover::after {
+  height: 52px;
+  box-sizing: border-box;
+  content: "Conocé nuestra ubicación";
+  font-size: 14px;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  top: 4px;
+  animation: 3s fadeIn;
+}
+
+
+#icono-telefono {
+  color: #0091ff;
+}
+
+.telefono {
+  font-weight: bold;
+  height: 58px;
+  font-size: 34px;
+  display: flex;
+  color: white;
+  justify-content: flex-start;
+  padding-left: 10px;
+  width: 50px;
+  background-color: whitesmoke;
+  -webkit-transition: width 1s, background 1s;
+  -moz-transition: width 0.5s, background 0.5s;
+  -o-transition: width 0.5s, background 0, 5s;
+  transition: width 0.5s, background 0.5s;
+}
+
+.telefono:hover {
+  height: 58px;
+  color: black;
+  width: 200px;
+  background-color: whitesmoke;
+}
+
+.telefono:hover::after {
+  content: "Clickeá y llamanos";
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  top: 12px;
+  left: 18px;
+  animation: 2s fadeIn;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* #icono-whatsapp:hover::before {
+  margin-right: 7%;
+  font-size: 12px;
+  content: 'Contactanos vía Whatsapp';
+  color: black;
+  padding-left: 8px;
+  padding-right: 8px;
+  opacity: 0;
+  animation: 4s fadeIn;
+  animation-fill-mode: forwards;
+  transition: opacity 1,5s;
+} */
+
+
+aside {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 32%;
+  left: 0px;
+  height: 260px;
+  z-index: 2;
+}
+
+.h2 {
+  color: black;
+  font-weight: 600;
+  font-size: xx-large;
+  margin: 1em 0 1em;
+  font-style: normal;
+  text-align: center;
+}
+
+.h5 {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.App {
+  width: 100%;
+  margin-top: 0 auto;
+}
+
+.i {
+  color: black;
+}

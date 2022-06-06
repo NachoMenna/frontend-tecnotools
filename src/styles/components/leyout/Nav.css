@@ -1,0 +1,30 @@
+#logo-tecno-tools {
+  width: 320px;
+  height: auto;
+  margin-left: 45%;
+}
+
+#nav {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  font-size: larger;
+}
+
+#container-padre {
+  display: flex;
+  justify-content: center;
+  border-bottom: 4px solid #DA241E;
+}
+
+#barra-de-texto {
+  margin-right: 15%;
+  text-align: center;
+  justify-content: center;
+}
+
+@media (max-width: 620px) {
+  #logo-tecno-tools {
+    margin-left: 5px;
+    width: 180px;
+    height: auto;
+  }
+}

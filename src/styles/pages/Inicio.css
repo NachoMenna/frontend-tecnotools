@@ -1,0 +1,150 @@
+.inicio-holder {
+  margin-top: 180px;
+}
+
+.carrusel {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+/* .imagen-fondo {
+  background-image: url(https://img.freepik.com/foto-gratis/diseno-textura-lisa-gris_53876-96061.jpg?w=740&t=st=1651606199~exp=1651606799~hmac=395bbd02efda28763d99647ca491a8014b8928f7f82f7455c2c09c325ae01734);
+} */
+
+.encabezado {
+  margin: 0px 0 54px 0;
+}
+
+.contenedor-servicios {
+  margin-top: 3%;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 3%;
+}
+
+
+h5 {
+  margin-top: 54px;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.servicios {
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  margin-bottom: 8%;
+
+}
+
+.servicio {
+  width: 180px;
+  height: 180px;
+  margin-top: 12px;
+  margin-bottom:20px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) ;
+  background: linear-gradient(-35deg, #ffffff, #b1bdff);
+}
+
+.servicio:hover {
+  box-shadow: 0 0 15px #29176E;
+}
+
+#icon {
+  font-size: 60px;
+  color: white;
+}
+
+#icon-img img{
+  height: 80px;
+  color: white;
+}
+
+.productos {
+  border-top: 2px solid #29176E;
+}
+
+.catalogos-1 {
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.catalogos-2 {
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.catalogo {
+  width: 220px;
+  border-radius: 1px;
+  margin-top: 12px;
+}
+
+#imagen-producto:hover {
+  box-shadow: 0 0 20px #29176E;
+}
+
+#imagen-producto {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 2px;
+  margin-top: 12px;
+}
+
+.linea-catalogo {
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  align-items: center;
+  width: 75%;
+  height: 4px;
+  background: linear-gradient(25deg, #29176E, white, #DA241E);
+}
+
+.video {
+  height: 460px;
+  background-color: #CBCBCB;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-diver {
+  margin-top: 20px;
+}
+
+@media (max-width: 1080px) {
+  .video {
+    display: none;
+  }
+}

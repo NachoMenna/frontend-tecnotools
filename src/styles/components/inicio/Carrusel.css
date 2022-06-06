@@ -1,0 +1,25 @@
+.carruselPadre{
+    width: 100%;
+    margin: auto;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    
+}
+
+.Imagen1 img {
+    height: 100%;
+    width: 100%;
+    /* padding-top: 6px; */
+}
+
+.Imagen2 img {
+    height: 100%;
+    width: 100%;
+    /* padding-top: 6px; */
+}
+
+.Imagen3 img {
+   height: 100%;
+   width: 100%;
+   /* padding-top: 6px; */
+}
+

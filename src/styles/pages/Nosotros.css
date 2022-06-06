@@ -1,0 +1,119 @@
+.empresa-holder {
+  margin-top: 120px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3em;
+}
+
+.imagen-camioneta{  
+  border-radius: 1%;
+}
+
+#contenedor-empresa {
+  text-align: justify; 
+  padding: 1em;
+  float: right;
+}
+
+.datos-de-contacto {
+  width: 50%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+
+.contenedor-datos-mapa {
+  height: 480px;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  background-color: rgb(234, 234, 234);
+
+}
+
+.map {
+  width: 50%;
+  float: right;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+
+.mapa {
+  height: 100%;
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+
+.datos-de-contacto {
+  display: flex;
+  flex-direction: column; 
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+.tarjeta {
+  background: linear-gradient(-35deg, #CCFFFF, #ccd4ff);
+  width: 60%;
+  height: 15%;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  display: flex;
+  align-items: center;
+}
+
+#nosotros-icono {
+  padding-left: 0.5em;
+  font-size: 3em;
+  color: black;
+  float: left;
+}
+
+.contenido {
+position: relative;
+left: 1em;
+font-size: small;
+}
+
+@media (max-width: 1080px) { 
+.contenedor-datos-mapa {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.datos-de-contacto {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(234, 234, 234);
+}
+
+.map {
+  width: 80%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  align-self: center;
+}
+
+.tarjeta {
+  background: linear-gradient(-35deg, #CCFFFF, #FFCCCC);
+  width: 75%;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.datos-de-contacto {
+  display: flex;
+  flex-direction: column; 
+  justify-content:space-evenly;
+  align-items: center;
+}
+ }

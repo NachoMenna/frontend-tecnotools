@@ -1,0 +1,57 @@
+.contacto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.maps {
+  text-align: center;
+  border-bottom: 4px solid #29176E;
+  margin-bottom: 5%;
+  padding-bottom: 5%;
+}
+
+.label {
+  display: inline-block;
+  vertical-align: top;
+  width: 80%;
+}
+
+form {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.input,
+textarea {
+  align-items: center;
+  background-color: #ddd;
+  border-radius: 4px;
+  border: 1px solid #999;
+  padding: 0, 4em 0, 6em;
+  width: 100%;
+  font-size: 0, 8em;
+
+}
+
+.input [type="submit"] {
+  background-color: #6da9ed;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  color: white;
+  font-size: 1em;
+  width: auto;
+  cursor: pointer;
+}
+
+.acciones {
+  text-align: center;
+}
+
+.textarea {
+  resize: none;
+}
+
+.mapa {
+  height: 480px;
+  width: 820px;
+}

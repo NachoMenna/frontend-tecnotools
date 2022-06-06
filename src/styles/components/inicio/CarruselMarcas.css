@@ -1,0 +1,13 @@
+.contenedor-marcas {
+    margin-top: 7%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenedor-marcas img {
+    width: auto;
+    height: 45px;
+    background-color: white;
+}

@@ -1,0 +1,71 @@
+.productos-holder {
+  margin-top: 120px;
+}
+
+.contenedor-roscado {
+  width: auto;
+  height: 320px;
+  overflow: hidden;
+  background-color: rgba(190, 177, 251, 0.666);
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contenedor-fresado {
+  width: auto;
+  height: 320px;
+  overflow: hidden;
+  background-color: rgba(190, 177, 251, 0.666);
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contenedor-perforado {
+  width: auto;
+  height: 320px;
+  overflow: hidden;
+  background-color: rgba(190, 177, 251, 0.666);
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contenedor-torneado {
+  width: auto;
+  height: 320px;
+  overflow: hidden;
+  background-color: rgba(190, 177, 251, 0.666);
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1080px) {
+  .productos-mobil {
+    display: none;
+  }
+
+}
+
+@media (max-width: 1080px){
+  .productos-escritorio {
+    display: none;
+  }
+}

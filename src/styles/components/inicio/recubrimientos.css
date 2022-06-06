@@ -1,0 +1,34 @@
+.contenedor-recubrimientos {
+    margin-top: 180px;
+    margin-bottom: 2em;
+}
+
+.flex {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+}
+
+.item-link{
+    width: max-content;
+}
+
+.item-link:hover {
+    cursor: pointer;
+}
+
+
+@media (max-width: 1200px){
+    .flex {
+        display: inline-flex;   
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .contenido {
+        margin-top: 4em;
+        margin-left: 0px;
+        padding-left: 2em;
+    }
+
+}
